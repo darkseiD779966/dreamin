@@ -65,7 +65,14 @@ form {
         box-shadow: inset 200px 0 0 0  #FC3787 ;
         color: gray;
     }
-    
+    h4, .h4 {
+        font-size: calc(1.275rem + 0.3vw);
+        color: hotpink;
+    }
+    label {
+        display: inline-block;
+        color: gray;
+    }
 .exitar >h1 {
   text-align: center;
   position: absolute;
