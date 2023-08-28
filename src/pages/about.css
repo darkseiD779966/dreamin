@@ -1,0 +1,122 @@
+#aboutus{
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    }
+    .dabur{
+    background-image: url("lill.jpg");
+    background-position: center center;
+    background-size: cover;
+
+        height: 100vh;
+        
+        display: block;
+    }
+    
+.image-section{
+    width: 40%;
+    margin-top: 12% ;
+ overflow-x: hidden;
+    float: right;
+    
+}
+.image-section img{
+    
+    width: 400px;
+    height: 350px;
+    box-shadow: 7px 7px 10px ;
+}
+        
+    @media screen and (max-width:768px){
+        .dabur{
+    display: block;
+    margin: auto;
+    height: 100%;
+    
+    
+        }
+        .content-section{
+            margin-top: 1%;
+            float: none !important;
+            width: 100% !important;
+            display: block;
+            margin: auto !important; 
+            text-align: center;
+            }
+    
+        .image-section{
+            margin:5% auto !important;
+    padding: 5% 20%;
+            float: none !important;
+            width: 100% !important;
+            display: block;
+            
+            
+    
+        }
+        .image-section{
+            min-width: auto;
+            max-width: auto;
+            max-height: auto;
+            min-height: auto;
+        }
+    }
+    .content-section {
+        width: 45%;
+        float: left;
+        margin: 70px 20px;
+        text-align: center;
+        position: relative;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      
+      .content-section::before {
+        content: "";
+        position: absolute;
+        top: -5px; /* Adjust position for border thickness */
+        left: -5px; /* Adjust position for border thickness */
+        right: -5px; /* Adjust position for border thickness */
+        bottom: -5px; /* Adjust position for border thickness */
+        border: 2px solid hotpink;
+        border-radius: inherit;
+        animation: rotateBorder 2s infinite linear;
+        transform-origin: center;
+      }
+      
+      @keyframes rotateBorder {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .content-section h1 {
+        color: rgba(50, 57, 57, 0.986);
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 55px;
+        font-weight: bolder;
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 3px 3px 3px;
+      }
+      
+      .content-section p {
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 18px;
+        color: black;
+        letter-spacing: 3px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+      }
+      
+      .content-section span {
+        color:hotpink;
+        margin-left: 15px;
+        font-family: 'Oswald', sans-serif;
+      }

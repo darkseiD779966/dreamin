@@ -1,0 +1,46 @@
+.exitar {
+    background-image: url("exi.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 5px black;
+  }
+  .exitar >h1 {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px grey;
+}
+  

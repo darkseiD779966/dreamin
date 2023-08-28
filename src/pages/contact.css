@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+  }
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  /* Section styles */
+  
+.exitar {
+  background-image: url("exi.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Added for positioning */
+}
+.duffer{
+    background-image: url("vector.jpg");
+        
+        background-size: cover;
+        background-position: center center;
+        display: block;
+        font-family: 'Oswald', sans-serif;
+    }
+    .car{
+    
+        max-width:20%;
+        padding: 0.6% 5%;
+        text-align: center;
+        
+        font-weight:500;
+        border: 1.6px solid #FC3787;
+        border-radius: none !important;
+        
+        color: gray;
+        cursor: pointer;
+        background-color: transparent !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition:  ease-out 0.8s;
+        box-shadow: inset 0 0 0 0  #FC3787;
+    }
+    /* contact.css */
+/* ... your existing styles */
+
+/* Adjust the width of form inputs and center them */
+form {
+    max-width: 600px; /* You can adjust this width as needed */
+    margin: 0 auto;
+    padding-top: 5% !important;
+  }
+  
+  /* Additional styles for the "Send" button */
+
+    .car:hover {
+        box-shadow: inset 200px 0 0 0  #FC3787 ;
+        color: gray;
+    }
+    
+.exitar >h1 {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  z-index: 1; /* Place the h1 above swiper */
+}
+
+.mySwiper {
+  z-index: 0; /* Ensure swiper is behind the h1 */
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.address{
+    text-align: center;
+    margin-top: 2%;
+}
+/* Footer styles */
+.footer {
+    font-family: 'Abel', sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(177, 171, 171);
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .footer :hover{
+    color: #FC3787;
+    transition: 1s;
+  }
+  /* Address section styles */
+
+  
+  
+  /* Social media links styles */
+  
+  .footer-social >a{
+    color: rgb(177, 171, 171);
+    margin-right: 10px;
+
+  }
+  @media  (max-width:762px){
+    .footer{
+    font-size:10px;
+  }
+}
+  li{
+    list-style: none;
+  }
