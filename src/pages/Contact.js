@@ -82,7 +82,7 @@ function Contact() {
 <BiLogoFacebookSquare /></a>
 <a href={"https://www.instagram.com/sigmaware_developers/"} target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
 <a href={"https://wa.me/9177954555"} target="_blank" rel="noopener noreferrer"><BsWhatsapp /></a>
-<a href="#" target="_blank" rel="noopener noreferrer"><TfiEmail />admin@dreamininteriors</a>
+<a href="#" target="_blank" rel="noopener noreferrer"><TfiEmail />admin@dreamininteriors.com</a>
 </div>
       </div></div>
       </section>
