@@ -25,7 +25,12 @@ right: 20px;
 z-index: 1000; 
   }
   
-  
+  .content >h1{
+    text-shadow:  3px 3px 3px black;
+  }
+  .content>h3{
+    text-shadow: 3px 3px 3px gray;
+  }
   .content h1,
   .content h3,
   .content span {
